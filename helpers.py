@@ -1,10 +1,5 @@
-
-
 def alphabet_position(letter):
-    #Add your code here
-    return
-
-
-def rotate_character(char, rot):
-    #Add your code here
-    return
+    letter = letter.lower()
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    if letter in alphabet:
+        return alphabet.index(letter)
